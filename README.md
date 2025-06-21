@@ -18,3 +18,9 @@ Open `index.html` in your browser or serve it locally.
 
 [Duplicate the design to your drafts](<insert-your-figma-link-here>)
 
+git add README.md
+git commit -m "Add initial README.md"
+git push
+
+
+
