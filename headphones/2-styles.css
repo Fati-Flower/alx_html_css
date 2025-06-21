@@ -1,0 +1,23 @@
+.our-results {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.our-results .stats {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.stat {
+  flex: 1 1 150px;
+  padding: 1rem;
+}
+
+.stat h3 {
+  color: var(--main-color);
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
