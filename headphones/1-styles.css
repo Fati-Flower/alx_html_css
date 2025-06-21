@@ -1,0 +1,30 @@
+.what-we-do {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.what-we-do h2 {
+  margin-bottom: 2rem;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1 1 200px;
+  padding: 1rem;
+}
+
+.icon {
+  font-size: 3rem;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+}
+
+.feature h3 {
+  margin-bottom: 0.5rem;
+}
