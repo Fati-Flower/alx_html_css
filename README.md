@@ -16,7 +16,7 @@ Open `index.html` in your browser or serve it locally.
 
 ## Figma
 
-[Duplicate the design to your drafts](<insert-your-figma-link-here>)
+[Duplicate the design to your drafts](https://www.figma.com/files/team/1509967990373174291/recents-and-sharing/recently-viewed?fuid=1509967987708567607)
 
 git add README.md
 git commit -m "Add initial README.md"
