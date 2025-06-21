@@ -1,0 +1,74 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #FF6565;
+  --max-width: 1000px;
+  --font: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  font-family: var(--font);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hero {
+  background: url('images/hero-bg.jpg') no-repeat center/cover;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+  color: var(--main-color);
+}
+
+.cta-button {
+  background: var(--main-color);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cta-button:hover,
+.cta-button:active {
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+}
