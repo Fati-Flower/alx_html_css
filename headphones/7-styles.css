@@ -1,0 +1,8 @@
+.feature {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.feature:hover {
+  transform: scale(1.05) rotate(2deg);
+  opacity: 0.9;
+}
